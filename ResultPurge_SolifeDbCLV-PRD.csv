@@ -1,0 +1,112 @@
+
+SQL*Plus: Release 12.1.0.2.0 Production on Fri Jun 7 20:00:21 2019
+
+Copyright (c) 1982, 2017, Oracle.  All rights reserved.
+
+@>@>@>Connected.
+CLV61PRD@Ora12PrdBak:1540/ORLSOL00.lan.filu.fortis>old   3: WHERE creation_date_time < sysdate - &&1
+new   3: WHERE creation_date_time < sysdate - 60
+
+3 rows deleted.
+
+
+Commit complete.
+
+old   7:   AND end_date 		  < CURRENT_DATE - &&1
+new   7:   AND end_date 		  < CURRENT_DATE - 60
+
+0 rows deleted.
+
+
+Commit complete.
+
+old   7:   AND end_date 		  < CURRENT_DATE - &&1
+new   7:   AND end_date 		  < CURRENT_DATE - 60
+
+77 rows deleted.
+
+
+Commit complete.
+
+old   7:   AND end_date 		  < CURRENT_DATE - &&1
+new   7:   AND end_date 		  < CURRENT_DATE - 60
+
+0 rows deleted.
+
+
+Commit complete.
+
+old   7:   AND end_date 		  < CURRENT_DATE - &&1
+new   7:   AND end_date 		  < CURRENT_DATE - 60
+
+3 rows deleted.
+
+
+Commit complete.
+
+old   7:   AND end_date 		  < CURRENT_DATE - &&1
+new   7:   AND end_date 		  < CURRENT_DATE - 60
+
+0 rows deleted.
+
+
+Commit complete.
+
+old   7:   AND end_date 		  < CURRENT_DATE - &&1
+new   7:   AND end_date 		  < CURRENT_DATE - 60
+
+9668 rows deleted.
+
+
+Commit complete.
+
+old   7:   AND end_date 		  < CURRENT_DATE - &&1
+new   7:   AND end_date 		  < CURRENT_DATE - 60
+
+2691 rows deleted.
+
+
+Commit complete.
+
+old   1: DELETE FROM client_notifications WHERE expiry_time < CURRENT_DATE - &&1
+new   1: DELETE FROM client_notifications WHERE expiry_time < CURRENT_DATE - 60
+
+30127 rows deleted.
+
+
+Commit complete.
+
+old   9:   AND last_state_time < sysdate - &&1
+new   9:   AND last_state_time < sysdate - 60
+
+0 rows deleted.
+
+
+Commit complete.
+
+old  12:     AND last_state_time < sysdate - &&1
+new  12:     AND last_state_time < sysdate - 60
+
+2943 rows deleted.
+
+
+Commit complete.
+
+old   9:   AND last_state_time < sysdate - &&1
+new   9:   AND last_state_time < sysdate - 60
+
+7773 rows deleted.
+
+
+Commit complete.
+
+old   6: AND last_state_time < sysdate - &&1
+new   6: AND last_state_time < sysdate - 60
+
+938 rows deleted.
+
+
+Commit complete.
+
+CLV61PRD@Ora12PrdBak:1540/ORLSOL00.lan.filu.fortis>Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
